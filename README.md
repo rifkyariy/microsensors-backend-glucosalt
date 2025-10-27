@@ -1,4 +1,4 @@
-# GlucosAlt Backend API# GlucosAlt Backend API# GlucosAlt Backend API<p align="center">
+# GlucosAlt Backend API# GlucosAlt Backend API# GlucosAlt Backend API# GlucosAlt Backend API<p align="center">
 
 
 
@@ -6,7 +6,7 @@ A NestJS-based backend API for the GlucosAlt health monitoring system, providing
 
 
 
-## FeaturesA NestJS-based backend API for the GlucosAlt health monitoring system, providing real-time health metrics tracking, BMI calculations, diet logging, and PPG (Photoplethysmography) data analytics.  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+## FeaturesA NestJS-based backend API for the GlucosAlt health monitoring system, providing real-time health metrics tracking, BMI calculations, diet logging, and PPG (Photoplethysmography) data analytics.
 
 
 
@@ -14,7 +14,7 @@ A NestJS-based backend API for the GlucosAlt health monitoring system, providing
 
 - **PPG Data Storage**: Raw PPG waveform data (IR and Red) for advanced analytics
 
-- **BMI Tracking**: Body Mass Index calculation and historical tracking with sync functionality## 🚀 FeaturesNestJS backend API for GlucosAlt health monitoring system with ESP32 integration.</p>
+- **BMI Tracking**: Body Mass Index calculation and historical tracking with sync functionality## FeaturesA NestJS-based backend API for the GlucosAlt health monitoring system, providing real-time health metrics tracking, BMI calculations, diet logging, and PPG (Photoplethysmography) data analytics.  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 
 - **Diet Management**: Food database and meal logging with nutritional information
 
@@ -30,7 +30,7 @@ A NestJS-based backend API for the GlucosAlt health monitoring system, providing
 
 
 
-- Node.js 18+ and npm- **BMI Tracking**: Body Mass Index calculation and historical tracking with sync functionality## 🏗️ Architecture[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+- Node.js 18+ and npm- **BMI Tracking**: Body Mass Index calculation and historical tracking with sync functionality## 🚀 FeaturesNestJS backend API for GlucosAlt health monitoring system with ESP32 integration.</p>
 
 - PostgreSQL (via Supabase)
 
@@ -38,7 +38,7 @@ A NestJS-based backend API for the GlucosAlt health monitoring system, providing
 
 - ESP32 with MAX30102 sensor (for data collection)
 
-- **User Authentication**: JWT-based authentication with Supabase[circleci-url]: https://circleci.com/gh/nestjs/nest
+- **User Authentication**: JWT-based authentication with Supabase
 
 ## Installation
 
@@ -46,7 +46,7 @@ A NestJS-based backend API for the GlucosAlt health monitoring system, providing
 
 1. **Clone the repository**:
 
-```bash- **IoT Integration**: ESP32 sensor data ingestion and processing- **NestJS**: TypeScript backend framework
+```bash- **IoT Integration**: ESP32 sensor data ingestion and processing- **Health Metrics Monitoring**: Real-time heart rate and SpO2 tracking with Server-Sent Events (SSE)
 
 git clone <repository-url>
 
@@ -54,7 +54,7 @@ cd GlucosAlt/backend
 
 ```
 
-## 📋 Prerequisites- **InfluxDB**: Time-series database for health metrics (heart rate, SpO2)  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+## Prerequisites- **PPG Data Storage**: Raw PPG waveform data (IR and Red) for advanced analytics
 
 2. **Install dependencies**:
 
@@ -62,7 +62,7 @@ cd GlucosAlt/backend
 
 npm install
 
-```- Node.js 18+ and npm- **Supabase**: PostgreSQL for relational data (users, BMI, diet)    <p align="center">
+```- Node.js 18+ and npm- **BMI Tracking**: Body Mass Index calculation and historical tracking with sync functionality## 🏗️ Architecture[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 
 
 
@@ -70,7 +70,7 @@ npm install
 
 
 
-Create a `.env` file in the backend directory:- InfluxDB 2.x- **TypeScript**: Full type safety<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+Create a `.env` file in the backend directory:- InfluxDB 2.x- **Diet Management**: Food database and meal logging with nutritional information
 
 
 
@@ -78,15 +78,15 @@ Create a `.env` file in the backend directory:- InfluxDB 2.x- **TypeScript**: Fu
 
 # Server Configuration
 
-PORT=3067<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+PORT=3067- **User Authentication**: JWT-based authentication with Supabase[circleci-url]: https://circleci.com/gh/nestjs/nest
 
 
 
-# Supabase Configuration## 🛠️ Installation
+# Supabase Configuration## Installation
 
 SUPABASE_URL=https://your-project.supabase.co
 
-SUPABASE_SERVICE_KEY=your-service-key## 📦 Installation<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+SUPABASE_SERVICE_KEY=your-service-key- **Time-Series Database**: InfluxDB integration for efficient health metrics storage
 
 SUPABASE_ANON_KEY=your-anon-key
 
@@ -94,7 +94,7 @@ JWT_SECRET=your-jwt-secret1. **Clone the repository**:
 
 
 
-# InfluxDB Configuration```bash<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+# InfluxDB Configuration```bash- **IoT Integration**: ESP32 sensor data ingestion and processing- **NestJS**: TypeScript backend framework
 
 INFLUXDB_URL=http://localhost:8086
 
@@ -102,7 +102,7 @@ INFLUXDB_TOKEN=your-influxdb-tokengit clone <repository-url>
 
 INFLUXDB_ORG=east
 
-INFLUXDB_BUCKET=health_metricscd GlucosAlt/backend```bash<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+INFLUXDB_BUCKET=health_metricscd GlucosAlt/backend
 
 
 
@@ -110,7 +110,7 @@ INFLUXDB_BUCKET=health_metricscd GlucosAlt/backend```bash<a href="https://discor
 
 FRONTEND_URL=http://localhost:3066
 
-```npm install<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+```## 📋 Prerequisites- **InfluxDB**: Time-series database for health metrics (heart rate, SpO2)  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
 
 
 
@@ -118,7 +118,7 @@ FRONTEND_URL=http://localhost:3066
 
 
 
-Run the SQL migrations in `migrations/001_initial_schema.sql`:```bash```<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+Run the SQL migrations in `migrations/001_initial_schema.sql`:```bash
 
 
 
@@ -126,7 +126,7 @@ Run the SQL migrations in `migrations/001_initial_schema.sql`:```bash```<a href=
 
 # Connect to your Supabase project and run the migration
 
-psql -h your-db-host -U postgres -d postgres -f migrations/001_initial_schema.sql```  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
+psql -h your-db-host -U postgres -d postgres -f migrations/001_initial_schema.sql```- Node.js 18+ and npm- **Supabase**: PostgreSQL for relational data (users, BMI, diet)    <p align="center">
 
 ```
 
@@ -134,7 +134,7 @@ psql -h your-db-host -U postgres -d postgres -f migrations/001_initial_schema.sq
 
 5. **Seed the database** (optional):
 
-```bash3. **Configure environment variables**:## ⚙️ Configuration    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+```bash3. **Configure environment variables**:- PostgreSQL (via Supabase)
 
 npm run seed
 
@@ -142,7 +142,7 @@ npm run seed
 
 
 
-## Running the ApplicationCreate a `.env` file in the backend directory:  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
+## Running the ApplicationCreate a `.env` file in the backend directory:- InfluxDB 2.x- **TypeScript**: Full type safety<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 
 
 
@@ -150,7 +150,7 @@ npm run seed
 
 ```bash
 
-npm run start:dev```env1. Copy `.env.example` to `.env`:</p>
+npm run start:dev```env- ESP32 with MAX30102 sensor (for data collection)
 
 ```
 
@@ -158,7 +158,7 @@ npm run start:dev```env1. Copy `.env.example` to `.env`:</p>
 
 ### Production Mode
 
-```bashPORT=3067```bash  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+```bashPORT=3067<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
 
 npm run build
 
@@ -166,7 +166,7 @@ npm run start:prod
 
 ```
 
-# Supabase Configurationcp .env.example .env  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+# Supabase Configuration## 🛠️ Installation
 
 ### Watch Mode
 
@@ -174,7 +174,7 @@ npm run start:prod
 
 npm run start:debug
 
-```SUPABASE_SERVICE_KEY=your-service-key```
+```SUPABASE_SERVICE_KEY=your-service-key## 📦 Installation<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
 
 
 
@@ -182,7 +182,7 @@ The API will be available at `http://localhost:3067`SUPABASE_ANON_KEY=your-anon-
 
 
 
-## API EndpointsJWT_SECRET=your-jwt-secret## Description
+## API EndpointsJWT_SECRET=your-jwt-secret1. **Clone the repository**:
 
 
 
@@ -190,7 +190,7 @@ The API will be available at `http://localhost:3067`SUPABASE_ANON_KEY=your-anon-
 
 
 
-#### Register User# InfluxDB Configuration2. Update environment variables in `.env`
+#### Register User# InfluxDB Configuration```bash<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
 
 ```http
 
@@ -198,7 +198,7 @@ POST /auth/registerINFLUXDB_URL=http://localhost:8086
 
 Content-Type: application/json
 
-INFLUXDB_TOKEN=your-influxdb-token[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+INFLUXDB_TOKEN=your-influxdb-tokengit clone <repository-url>
 
 {
 
@@ -206,7 +206,7 @@ INFLUXDB_TOKEN=your-influxdb-token[Nest](https://github.com/nestjs/nest) framewo
 
   "password": "secure-password",
 
-  "name": "John Doe",INFLUXDB_BUCKET=health_metrics## 🗄️ Database Setup
+  "name": "John Doe",INFLUXDB_BUCKET=health_metricscd GlucosAlt/backend```bash<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
 
   "age": 25,
 
@@ -214,7 +214,7 @@ INFLUXDB_TOKEN=your-influxdb-token[Nest](https://github.com/nestjs/nest) framewo
 
   "height": 1.75
 
-}# CORS Configuration## Project setup
+}# CORS Configuration```
 
 ```
 
@@ -222,7 +222,7 @@ FRONTEND_URL=http://localhost:3066
 
 #### Login
 
-```http```### Supabase (PostgreSQL)
+```http```npm install<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
 
 POST /auth/login
 
@@ -230,7 +230,7 @@ Content-Type: application/json
 
 
 
-{4. **Set up the database**:1. Create a Supabase project at https://supabase.com```bash
+{4. **Set up the database**:2. **Install dependencies**:
 
   "email": "user@example.com",
 
@@ -238,7 +238,7 @@ Content-Type: application/json
 
 }
 
-```Run the SQL migrations in `migrations/001_initial_schema.sql`:2. Run migration: `migrations/001_initial_schema.sql`$ npm install
+```Run the SQL migrations in `migrations/001_initial_schema.sql`:```bash```<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
 
 
 
@@ -246,7 +246,7 @@ Content-Type: application/json
 
 
 
-#### Post Health Metric (from ESP32)```bash```
+#### Post Health Metric (from ESP32)```bashnpm install
 
 ```http
 
@@ -254,7 +254,7 @@ POST /health/metrics# Connect to your Supabase project and run the migration
 
 Content-Type: application/json
 
-psql -h your-db-host -U postgres -d postgres -f migrations/001_initial_schema.sql### InfluxDB
+psql -h your-db-host -U postgres -d postgres -f migrations/001_initial_schema.sql```  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
 
 {
 
@@ -262,7 +262,7 @@ psql -h your-db-host -U postgres -d postgres -f migrations/001_initial_schema.sq
 
   "user_id": "64a6f31f-68c4-4122-b406-55dc2d75703e",
 
-  "heart_rate": 75,1. Install InfluxDB v2.x## Compile and run the project
+  "heart_rate": 75,
 
   "blood_oxygen": 98,
 
@@ -270,7 +270,7 @@ psql -h your-db-host -U postgres -d postgres -f migrations/001_initial_schema.sq
 
   "ppg_red": [32000, 32100, 32200, ...]
 
-}```bash2. Create bucket: `health_metrics`
+}```bash3. **Configure environment variables**:## ⚙️ Configuration    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
 
 ```
 
@@ -278,7 +278,7 @@ npm run seed
 
 **Note**: `ppg_ir` and `ppg_red` are optional 100-sample arrays for analytics.
 
-```3. Generate API token```bash
+```
 
 #### Get Latest Health Metric
 
@@ -286,7 +286,7 @@ npm run seed
 
 GET /health/latest/:userId
 
-```## 🚦 Running the Application# development
+```## Running the ApplicationCreate a `.env` file in the backend directory:  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
 
 
 
@@ -294,7 +294,7 @@ GET /health/latest/:userId
 
 ```http
 
-GET /health/stream/:userId### Development Mode## 🌱 Seed Database$ npm run start
+GET /health/stream/:userId### Development Mode
 
 ```
 
@@ -302,7 +302,7 @@ GET /health/stream/:userId### Development Mode## 🌱 Seed Database$ npm run sta
 
 #### Get Health Statistics
 
-```httpnpm run start:dev
+```httpnpm run start:dev```env1. Copy `.env.example` to `.env`:</p>
 
 GET /health/stats/:userId?days=7
 
@@ -310,7 +310,7 @@ GET /health/stats/:userId?days=7
 
 
 
-#### Get PPG Raw Data```bash# watch mode
+#### Get PPG Raw Data# Server Configuration
 
 ```http
 
@@ -318,7 +318,7 @@ GET /health/ppg/:userId?start=-24h&limit=100### Production Mode
 
 ```
 
-```bashnpm run seed$ npm run start:dev
+```bashPORT=3067```bash  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
 
 **Query Parameters**:
 
@@ -326,7 +326,7 @@ GET /health/ppg/:userId?start=-24h&limit=100### Production Mode
 
 - `limit`: Maximum records to return, default: `100`
 
-npm run start:prod```
+npm run start:prod
 
 **Response**:
 
@@ -334,7 +334,7 @@ npm run start:prod```
 
 [
 
-  {# production mode
+  {# Supabase Configurationcp .env.example .env  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
     "timestamp": "2025-10-27T10:30:00Z",
 
@@ -342,7 +342,7 @@ npm run start:prod```
 
     "sample_count": 100,
 
-    "ppg_ir": [65000, 65100, ...],```bashCreates 4 test users with 30 days of data.$ npm run start:prod
+    "ppg_ir": [65000, 65100, ...],```bashSUPABASE_URL=https://your-project.supabase.co
 
     "ppg_red": [32000, 32100, ...]
 
@@ -350,7 +350,7 @@ npm run start:prod```
 
 ]
 
-`````````
+``````SUPABASE_SERVICE_KEY=your-service-key```
 
 
 
@@ -358,7 +358,7 @@ npm run start:prod```
 
 
 
-#### Create BMI RecordThe API will be available at `http://localhost:3067`## 🚀 Running
+#### Create BMI RecordThe API will be available at `http://localhost:3067`SUPABASE_ANON_KEY=your-anon-key
 
 ```http
 
@@ -366,7 +366,7 @@ POST /bmi
 
 Content-Type: application/json
 
-## 📡 API Endpoints## Run tests
+## API EndpointsJWT_SECRET=your-jwt-secret## Description
 
 {
 
@@ -374,7 +374,7 @@ Content-Type: application/json
 
   "weight": 75.5
 
-}### Authentication```bash
+}### Authentication
 
 ```
 
@@ -382,7 +382,7 @@ Content-Type: application/json
 
 **Note**: BMI is calculated automatically using the user's height from their profile.
 
-#### Register Usernpm run start:dev```bash
+#### Register User# InfluxDB Configuration2. Update environment variables in `.env`
 
 #### Get Latest BMI
 
@@ -390,7 +390,7 @@ Content-Type: application/json
 
 GET /bmi/latest/:userId
 
-```POST /auth/register```# unit tests
+```POST /auth/registerINFLUXDB_URL=http://localhost:8086
 
 
 
@@ -398,7 +398,7 @@ GET /bmi/latest/:userId
 
 ```http
 
-GET /bmi/user/:userId$ npm run test
+GET /bmi/user/:userIdINFLUXDB_TOKEN=your-influxdb-token[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ```
 
@@ -406,7 +406,7 @@ GET /bmi/user/:userId$ npm run test
 
 #### Sync BMI Records
 
-```http  "email": "user@example.com",API: http://localhost:3000
+```http  "email": "user@example.com",INFLUXDB_ORG=east
 
 PUT /bmi/:userId/sync
 
@@ -414,7 +414,7 @@ PUT /bmi/:userId/sync
 
 
 
-Recalculates all BMI records based on current user height. Useful after updating height in profile.  "name": "John Doe",# e2e tests
+Recalculates all BMI records based on current user height. Useful after updating height in profile.  "name": "John Doe",INFLUXDB_BUCKET=health_metrics## 🗄️ Database Setup
 
 
 
@@ -422,7 +422,7 @@ Recalculates all BMI records based on current user height. Useful after updating
 
 ```json
 
-{  "gender": "male",## 📡 API Endpoints$ npm run test:e2e
+{  "gender": "male",
 
   "message": "Successfully synced 62 BMI records",
 
@@ -430,7 +430,7 @@ Recalculates all BMI records based on current user height. Useful after updating
 
     {
 
-      "recorded_at": "2025-10-01T00:00:00Z",}
+      "recorded_at": "2025-10-01T00:00:00Z",}# CORS Configuration## Project setup
 
       "weight": 75.2,
 
@@ -438,7 +438,7 @@ Recalculates all BMI records based on current user height. Useful after updating
 
       "newBmi": 24.29
 
-    }See full documentation in code comments.# test coverage
+    }FRONTEND_URL=http://localhost:3066
 
   ]
 
@@ -446,7 +446,7 @@ Recalculates all BMI records based on current user height. Useful after updating
 
 ```
 
-```http$ npm run test:cov
+```http```### Supabase (PostgreSQL)
 
 ### Diet Management
 
@@ -454,7 +454,7 @@ POST /auth/login
 
 #### Create Diet Record
 
-```httpContent-Type: application/json### Key Endpoints```
+```httpContent-Type: application/json
 
 POST /diet
 
@@ -462,7 +462,7 @@ Content-Type: application/json
 
 
 
-{{- `POST /health/metrics` - ESP32 sensor data
+{{4. **Set up the database**:1. Create a Supabase project at https://supabase.com```bash
 
   "user_id": "64a6f31f-68c4-4122-b406-55dc2d75703e",
 
@@ -470,7 +470,7 @@ Content-Type: application/json
 
   "food_name": "Oatmeal",
 
-  "calories": 158,  "password": "secure-password"- `GET /health/metrics/:userId` - Query metrics## Deployment
+  "calories": 158,  "password": "secure-password"
 
   "carbs": 27,
 
@@ -478,7 +478,7 @@ Content-Type: application/json
 
   "fat": 3.2
 
-}```- `POST /bmi` - Log BMI
+}```Run the SQL migrations in `migrations/001_initial_schema.sql`:2. Run migration: `migrations/001_initial_schema.sql`$ npm install
 
 ```
 
@@ -486,7 +486,7 @@ Content-Type: application/json
 
 #### Get User Diet Records
 
-```http### Health Metrics- `POST /diet` - Log foodWhen you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+```http### Health Metrics
 
 GET /diet/user/:userId?startDate=2025-10-01&endDate=2025-10-27
 
@@ -494,7 +494,7 @@ GET /diet/user/:userId?startDate=2025-10-01&endDate=2025-10-27
 
 
 
-#### Get Diet Statistics#### Post Health Metric (from ESP32)- `GET /users` - User management
+#### Get Diet Statistics#### Post Health Metric (from ESP32)```bash```
 
 ```http
 
@@ -502,7 +502,7 @@ GET /diet/stats/:userId?days=7```http
 
 ```
 
-POST /health/metricsIf you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+POST /health/metrics# Connect to your Supabase project and run the migration
 
 ### User Management
 
@@ -510,7 +510,7 @@ Content-Type: application/json
 
 #### Get User Profile
 
-```http## 🔌 ESP32 Example
+```httppsql -h your-db-host -U postgres -d postgres -f migrations/001_initial_schema.sql### InfluxDB
 
 GET /users/:id
 
@@ -518,7 +518,7 @@ GET /users/:id
 
 
 
-#### Update User Profile  "device_id": "ESP32_001",```bash
+#### Update User Profile  "device_id": "ESP32_001",```
 
 ```http
 
@@ -526,7 +526,7 @@ PATCH /users/:id  "user_id": "64a6f31f-68c4-4122-b406-55dc2d75703e",
 
 Content-Type: application/json
 
-  "heart_rate": 75,```json$ npm install -g @nestjs/mau
+  "heart_rate": 75,1. Install InfluxDB v2.x## Compile and run the project
 
 {
 
@@ -534,7 +534,7 @@ Content-Type: application/json
 
   "height": 1.75,
 
-  "age": 26,  "ppg_ir": [65000, 65100, 65200, ...],POST /health/metrics$ mau deploy
+  "age": 26,  "ppg_ir": [65000, 65100, 65200, ...],5. **Seed the database** (optional):
 
   "gender": "male"
 
@@ -542,7 +542,7 @@ Content-Type: application/json
 
 ```
 
-}{```
+}```bash2. Create bucket: `health_metrics`
 
 ## Database Schema
 
@@ -550,7 +550,7 @@ Content-Type: application/json
 
 ### PostgreSQL (Supabase)
 
-  "device_id": "ESP32_001",
+npm run seed
 
 **users**
 
@@ -558,13 +558,580 @@ Content-Type: application/json
 
 - `email` (String, Unique)
 
-- `name` (String)  "user_id": "uuid",With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+- `name` (String)```3. Generate API token```bash
 
 - `age` (Integer)
 
 - `gender` (String)#### Get Latest Health Metric
 
 - `height` (Decimal) - Height in meters
+
+- `created_at` (Timestamp)```http
+
+
+
+**bmi_records**GET /health/latest/:userId
+
+- `id` (UUID, Primary Key)
+
+- `user_id` (UUID, Foreign Key → users)```## 🚦 Running the Application# development
+
+- `weight` (Decimal) - Weight in kilograms
+
+- `bmi` (Decimal)
+
+- `recorded_at` (Timestamp)
+
+#### Stream Real-time Health Metrics (SSE)
+
+**diet_records**
+
+- `id` (UUID, Primary Key)```http
+
+- `user_id` (UUID, Foreign Key → users)
+
+- `meal_type` (String) - breakfast, lunch, dinner, snackGET /health/stream/:userId### Development Mode## 🌱 Seed Database$ npm run start
+
+- `food_name` (String)
+
+- `calories` (Decimal)```
+
+- `carbs` (Decimal)
+
+- `protein` (Decimal)```bash
+
+- `fat` (Decimal)
+
+- `recorded_at` (Timestamp)#### Get Health Statistics
+
+
+
+**food_database**```httpnpm run start:dev
+
+- `id` (Serial, Primary Key)
+
+- `name` (String, Unique)GET /health/stats/:userId?days=7
+
+- `calories` (Decimal)
+
+- `carbs` (Decimal)``````
+
+- `protein` (Decimal)
+
+- `fat` (Decimal)
+
+- `serving_size` (String)
+
+#### Get PPG Raw Data```bash# watch mode
+
+### InfluxDB
+
+```http
+
+**health_metrics** measurement
+
+- Tags: `user_id`, `device_id`GET /health/ppg/:userId?start=-24h&limit=100### Production Mode
+
+- Fields: `heart_rate`, `blood_oxygen`
+
+- Timestamp: Automatic```
+
+
+
+**ppg_raw** measurement```bashnpm run seed$ npm run start:dev
+
+- Tags: `user_id`, `device_id`
+
+- Fields: `ppg_ir` (JSON string), `ppg_red` (JSON string), `sample_count`**Query Parameters**:
+
+- Timestamp: Automatic
+
+- `start`: Time range (e.g., `-24h`, `-7d`), default: `-24h`npm run build
+
+## Configuration
+
+- `limit`: Maximum records to return, default: `100`
+
+### Validation Rules
+
+npm run start:prod```
+
+Health metrics validation (relaxed for development):
+
+- **Heart Rate**: 0-300 BPM (normal resting: 60-100 BPM)**Response**:
+
+- **Blood Oxygen**: 0-100% (normal: 95-100%)
+
+```json```
+
+These ranges allow collecting data even with imperfect sensor readings for analytics purposes.
+
+[
+
+### BMI Calculation
+
+  {# production mode
+
+BMI is calculated using the formula:
+
+```    "timestamp": "2025-10-27T10:30:00Z",
+
+BMI = weight(kg) / height²(m)
+
+```    "device_id": "ESP32_001",### Watch Mode
+
+
+
+**Important**: Height must be stored in meters, not centimeters.    "sample_count": 100,
+
+
+
+Categories:    "ppg_ir": [65000, 65100, ...],```bashCreates 4 test users with 30 days of data.$ npm run start:prod
+
+- Underweight: BMI < 18.5
+
+- Normal weight: BMI 18.5-24.9    "ppg_red": [32000, 32100, ...]
+
+- Overweight: BMI 25-29.9
+
+- Obese: BMI ≥ 30  }npm run start:debug
+
+
+
+## Testing]
+
+
+
+### Run Unit Tests`````````
+
+```bash
+
+npm run test
+
+```
+
+### BMI Management
+
+### Run E2E Tests
+
+```bash
+
+npm run test:e2e
+
+```#### Create BMI RecordThe API will be available at `http://localhost:3067`## 🚀 Running
+
+
+
+### Test Coverage```http
+
+```bash
+
+npm run test:covPOST /bmi
+
+```
+
+Content-Type: application/json
+
+### Manual API Testing
+
+## 📡 API Endpoints## Run tests
+
+Test health metrics endpoint:
+
+```bash{
+
+curl -X POST http://localhost:3067/health/metrics \
+
+  -H "Content-Type: application/json" \  "user_id": "64a6f31f-68c4-4122-b406-55dc2d75703e",
+
+  -d '{
+
+    "device_id": "ESP32_001",  "weight": 75.5
+
+    "user_id": "YOUR_USER_ID",
+
+    "heart_rate": 75,}### Authentication```bash
+
+    "blood_oxygen": 98
+
+  }'```
+
+```
+
+
+
+Test SSE stream:
+
+```bash**Note**: BMI is calculated automatically using the user's height from their profile.
+
+curl -N http://localhost:3067/health/stream/YOUR_USER_ID
+
+```#### Register Usernpm run start:dev```bash
+
+
+
+## Data Seeding#### Get Latest BMI
+
+
+
+The seed script populates the database with sample data for development:```http```http
+
+
+
+```bashGET /bmi/latest/:userId
+
+npm run seed
+
+``````POST /auth/register```# unit tests
+
+
+
+This creates:
+
+- 30 food items in the food database
+
+- 31 days of BMI records (with realistic weight variations)#### Get User BMI HistoryContent-Type: application/json
+
+- 93 diet records (3 meals per day for 31 days)
+
+- 8 days of health metrics (every 30 minutes)```http
+
+
+
+**Target User**:GET /bmi/user/:userId$ npm run test
+
+- ID: `64a6f31f-68c4-4122-b406-55dc2d75703e`
+
+- Email: `rifkyari@gmail.com````
+
+- Height: 1.75m
+
+- Age: 23{
+
+- Gender: male
+
+#### Sync BMI Records
+
+## ESP32 Integration
+
+```http  "email": "user@example.com",API: http://localhost:3000
+
+### Hardware Setup
+
+PUT /bmi/:userId/sync
+
+1. **MAX30102 Sensor Connections**:
+
+   - VCC → ESP32 3.3V```  "password": "secure-password",
+
+   - GND → ESP32 GND
+
+   - SDA → ESP32 GPIO 21
+
+   - SCL → ESP32 GPIO 22
+
+Recalculates all BMI records based on current user height. Useful after updating height in profile.  "name": "John Doe",# e2e tests
+
+2. **Upload Firmware**:
+
+   - Use the improved code in `ESP32_IMPROVED.ino`
+
+   - Configure WiFi credentials and API endpoint
+
+   - Upload to ESP32 via Arduino IDE**Response**:  "age": 25,
+
+
+
+3. **Features**:```json
+
+   - Automatic finger detection (IR threshold: 50000)
+
+   - 3-second stabilization period{  "gender": "male",## 📡 API Endpoints$ npm run test:e2e
+
+   - PPG data collection (100 samples @ 100Hz)
+
+   - Sends data every 250ms  "message": "Successfully synced 62 BMI records",
+
+   - Default values when readings are invalid
+
+  "updated": [  "height": 1.75
+
+### API Configuration in ESP32
+
+    {
+
+```cpp
+
+const char* apiUrl = "https://api-glucosalt.heretichydra.xyz/health/metrics";      "recorded_at": "2025-10-01T00:00:00Z",}
+
+const char* userId = "64a6f31f-68c4-4122-b406-55dc2d75703e";
+
+const char* deviceId = "ESP32_001";      "weight": 75.2,
+
+```
+
+      "oldBmi": 0,```
+
+## Troubleshooting
+
+      "newBmi": 24.29
+
+### Common Issues
+
+    }See full documentation in code comments.# test coverage
+
+1. **BMI shows 0.0**:
+
+   - Check user height is in meters (1.75) not centimeters (175)  ]
+
+   - Run sync endpoint: `PUT /bmi/:userId/sync`
+
+}#### Login
+
+2. **InfluxDB connection fails**:
+
+   - Verify InfluxDB is running: `influx ping````
+
+   - Check token and organization in `.env`
+
+   - Ensure bucket exists: `influx bucket list````http$ npm run test:cov
+
+
+
+3. **SSE stream returns null**:### Diet Management
+
+   - Verify data exists in InfluxDB for the user
+
+   - Check time range (data might be older than default -1h)POST /auth/login
+
+
+
+4. **ESP32 sensor invalid readings**:#### Create Diet Record
+
+   - See `SENSOR_TROUBLESHOOTING.md` in root directory
+
+   - Ensure proper finger placement```httpContent-Type: application/json### Key Endpoints```
+
+   - Check LED brightness settings
+
+POST /diet
+
+### Debug Endpoints
+
+Content-Type: application/json
+
+Check system health:
+
+```bash
+
+curl http://localhost:3067/health/debug/:userId
+
+```{{- `POST /health/metrics` - ESP32 sensor data
+
+
+
+## Project Structure  "user_id": "64a6f31f-68c4-4122-b406-55dc2d75703e",
+
+
+
+```  "meal_type": "breakfast",  "email": "user@example.com",
+
+backend/
+
+├── src/  "food_name": "Oatmeal",
+
+│   ├── auth/              # Authentication module
+
+│   │   ├── auth.controller.ts  "calories": 158,  "password": "secure-password"- `GET /health/metrics/:userId` - Query metrics## Deployment
+
+│   │   ├── auth.service.ts
+
+│   │   ├── dto/           # Login/Register DTOs  "carbs": 27,
+
+│   │   └── guards/        # JWT auth guard
+
+│   ├── bmi/               # BMI tracking module  "protein": 6,}
+
+│   │   ├── bmi.controller.ts
+
+│   │   ├── bmi.service.ts  "fat": 3.2
+
+│   │   └── dto/
+
+│   ├── diet/              # Diet management module}```- `POST /bmi` - Log BMI
+
+│   │   ├── diet.controller.ts
+
+│   │   ├── diet.service.ts```
+
+│   │   └── dto/
+
+│   ├── health/            # Health metrics module
+
+│   │   ├── health.controller.ts
+
+│   │   ├── health.service.ts#### Get User Diet Records
+
+│   │   └── dto/
+
+│   ├── influxdb/          # InfluxDB service```http### Health Metrics- `POST /diet` - Log foodWhen you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+
+│   │   ├── influxdb.module.ts
+
+│   │   └── influxdb.service.tsGET /diet/user/:userId?startDate=2025-10-01&endDate=2025-10-27
+
+│   ├── supabase/          # Supabase service
+
+│   │   ├── supabase.module.ts```
+
+│   │   └── supabase.service.ts
+
+│   ├── users/             # User management module
+
+│   │   ├── users.controller.ts
+
+│   │   ├── users.service.ts#### Get Diet Statistics#### Post Health Metric (from ESP32)- `GET /users` - User management
+
+│   │   └── dto/
+
+│   ├── seeds/             # Database seeding```http
+
+│   │   └── seed.ts
+
+│   ├── app.module.ts      # Main application moduleGET /diet/stats/:userId?days=7```http
+
+│   └── main.ts            # Application entry point
+
+├── migrations/            # SQL migrations```
+
+├── test/                  # E2E tests
+
+├── ESP32_IMPROVED.ino     # Improved ESP32 firmwarePOST /health/metricsIf you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+
+├── package.json
+
+└── tsconfig.json### User Management
+
+```
+
+Content-Type: application/json
+
+## Security
+
+#### Get User Profile
+
+- JWT-based authentication
+
+- Password hashing with bcrypt```http## 🔌 ESP32 Example
+
+- Service role key for Supabase admin operations
+
+- CORS configured for frontend originGET /users/:id
+
+- Environment variables for sensitive data
+
+```{
+
+## Deployment
+
+
+
+### Production Considerations
+
+#### Update User Profile  "device_id": "ESP32_001",```bash
+
+1. **Environment Variables**: Set all production values
+
+2. **Database Migration**: Run migrations before deployment```http
+
+3. **InfluxDB**: Use persistent storage, configure retention policies
+
+4. **SSL/TLS**: Enable HTTPS for API endpointsPATCH /users/:id  "user_id": "64a6f31f-68c4-4122-b406-55dc2d75703e",
+
+5. **Rate Limiting**: Consider adding rate limiting for public endpoints
+
+6. **Monitoring**: Set up logging and health checksContent-Type: application/json
+
+
+
+### Docker Deployment (Optional)  "heart_rate": 75,```json$ npm install -g @nestjs/mau
+
+
+
+```dockerfile{
+
+FROM node:18-alpine
+
+WORKDIR /app  "name": "John Doe",  "blood_oxygen": 98,
+
+COPY package*.json ./
+
+RUN npm ci --only=production  "height": 1.75,
+
+COPY . .
+
+RUN npm run build  "age": 26,  "ppg_ir": [65000, 65100, 65200, ...],POST /health/metrics$ mau deploy
+
+EXPOSE 3067
+
+CMD ["npm", "run", "start:prod"]  "gender": "male"
+
+```
+
+}  "ppg_red": [32000, 32100, 32200, ...]
+
+## License
+
+```
+
+[Your License Here]
+
+}{```
+
+## Contributing
+
+## Database Schema
+
+1. Fork the repository
+
+2. Create a feature branch```
+
+3. Commit your changes
+
+4. Push to the branch### PostgreSQL (Supabase)
+
+5. Open a Pull Request
+
+  "device_id": "ESP32_001",
+
+## Support
+
+**users**
+
+For issues and questions:
+
+- See `SENSOR_TROUBLESHOOTING.md` for sensor issues- `id` (UUID, Primary Key)**Note**: `ppg_ir` and `ppg_red` are optional 100-sample arrays for analytics.
+
+- Check GitHub Issues
+
+- Contact: [Your Contact Info]- `email` (String, Unique)
+
+
+
+## Acknowledgments- `name` (String)  "user_id": "uuid",With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+
+
+
+- NestJS Framework- `age` (Integer)
+
+- Supabase for PostgreSQL
+
+- InfluxDB for time-series data- `gender` (String)#### Get Latest Health Metric
+
+- MAX30102 sensor library by Sparkfun
+
+- Maxim Integrated for SpO2 algorithm- `height` (Decimal) - Height in meters
+
 
 - `created_at` (Timestamp)```http  "heart_rate": 75,
 
